@@ -1,0 +1,15 @@
+{
+	"apiVersion": 2,
+	"name": "example-block",
+	"title": "Example Block",
+	"category": "dwr-blocks",
+	"icon": "smiley",
+	"description": "Example block for DWR Blocks plugin",
+	"textdomain": "dwr-blocks",
+	"supports": {
+		"html": false
+	},
+	"editorScript": "file:../../build/index.js",
+	"editorStyle": "file:../../build/index.css",
+	"style": "file:../../build/style-index.css"
+}

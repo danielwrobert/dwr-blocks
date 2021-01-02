@@ -1,0 +1,4 @@
+/**
+ * DWR Blocks
+ */
+import './example';
