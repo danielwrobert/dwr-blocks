@@ -1,0 +1,15 @@
+{
+	"apiVersion": 2,
+	"name": "table-of-contents",
+	"title": "Table of Contents",
+	"category": "dwr-blocks",
+	"icon": "list-view",
+	"description": "TOC block for DWR Blocks plugin",
+	"textdomain": "dwr-blocks",
+	"supports": {
+		"html": false
+	},
+	"editorScript": "file:../../build/index.js",
+	"editorStyle": "file:../../build/index.css",
+	"style": "file:../../build/style-index.css"
+}

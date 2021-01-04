@@ -156,7 +156,7 @@ class DWR_Blocks {
 
 		// Array of blocks created in this plugin
 		$blocks = [
-			'dwr-blocks/example',
+			'dwr-blocks/table-of-contents',
 		];
 
 		// Loop through $blocks and register each block with the same script and styles.

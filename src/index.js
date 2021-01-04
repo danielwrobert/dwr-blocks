@@ -1,4 +1,4 @@
 /**
  * DWR Blocks
  */
-import './example';
+import './table-of-contents';
