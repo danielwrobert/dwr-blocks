@@ -19,7 +19,7 @@ import { __ } from "@wordpress/i18n";
  *
  * @see https://www.npmjs.com/package/@wordpress/scripts#using-css
  */
-import "./index.scss";
+import "./style.scss";
 
 /**
  * Internal dependencies
