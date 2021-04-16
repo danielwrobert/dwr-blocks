@@ -1,8 +1,16 @@
 /**
  * External Dependencies
  */
-import { __ } from '@wordpress/i18n';
-import { InnerBlocks, useBlockProps } from '@wordpress/block-editor';
+import { __ } from "@wordpress/i18n";
+import { InnerBlocks, useBlockProps } from "@wordpress/block-editor";
+
+/**
+ * Lets webpack process CSS, SASS or SCSS files referenced in JavaScript files.
+ * Those files can contain any CSS code that gets applied to the editor.
+ *
+ * @see https://www.npmjs.com/package/@wordpress/scripts#using-css
+ */
+import "./editor.scss";
 
 /**
  * The edit function describes the structure of your block in the context of the
@@ -14,9 +22,9 @@ import { InnerBlocks, useBlockProps } from '@wordpress/block-editor';
  */
 export default function Edit() {
 	return (
-		<div { ...useBlockProps() }>
-			<h2>{ __( 'Series Table of Contents', 'dwr-blocks' ) }</h2>
-			<InnerBlocks allowedBlocks={['core/list']} />
+		<div {...useBlockProps()}>
+			<h2>{__("Series Table of Contents", "dwr-blocks")}</h2>
+			<InnerBlocks allowedBlocks={["core/list"]} />
 		</div>
 	);
 }
